@@ -22,9 +22,9 @@ The objective of `weather.arff` is to predict if today we can play tennis. The a
 
 ![image](https://user-images.githubusercontent.com/97808991/218704353-6a665346-2e7d-473d-876d-2a019eb176f1.png)
 
-There are 14 instances with 5 attributes. Selecting each attribute, some characteristics of the attribute are displayed: type (nominal/numeric), possible values, maximum and minimum values and a histogram showing the distribution of the samples for this attribute and the classes distribution. For example, the figure shows that the attribute "Outlook" has three possible values (Sunny, Overcast and Rainy) having a distribution of [5,4,5]. In the 5 samples where the attribute `Outlook=sunny`, there are 3 with the class *no* and 2 with class *yes*.
+There are 14 instances with 5 attributes. Selecting each attribute, some characteristics of the attribute are displayed: type (nominal/numeric), possible values, maximum and minimum values and a histogram showing the distribution of the samples for this attribute and the classes distribution. For example, the figure shows that the attribute *Outlook* has three possible values (Sunny, Overcast and Rainy) having a distribution of [5,4,5]. In the 5 samples where the attribute *Outlook=sunny*, there are 3 with the class *no* and 2 with class *yes*.
 
-文件共有14个具有5个属性的实例。选择每个属性会显示其一些特征：类型、可能值、最大值、最小值，以及显示该属性的样本分布和类分布的直方图。例如，图中显示属性“Outlook”具有三个可能值（Sunny、Overcast和Rainy），其分布为[5,4,5]。在属性`Outlook=sunny`的5个示例中，有3个为*no*类，2个为*yes*类。
+文件共有14个具有5个属性的实例。选择每个属性会显示其一些特征：类型、可能值、最大值、最小值，以及显示该属性的样本分布和类分布的直方图。例如，图中显示属性“Outlook”具有三个可能值（Sunny、Overcast和Rainy），其分布为[5,4,5]。在属性*Outlook=sunny*的5个示例中，有3个为*no*类，2个为*yes*类。
 
 Once the data are loaded, we can learn a model, a decision tree in this case. We can choose how to evaluate the model:
 
