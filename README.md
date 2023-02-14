@@ -1,2 +1,75 @@
-# Classification_Feature_Weka
-Several classic datasets are provided for learning and practice. Understand and be familiar with algorithms such as ML and data mining in the field of AI through different methods in Weka.
+# Classification and Feature Selection with Weka
+Several classic datasets are provided for using Weka to study and practice machine learning (ML) algorithms such as Decision Tree and Neural Networks (NN), aiming to apply basic knowledge to areas such as data mining/classification, and feature extraction.
+
+该仓库提供了几个经典数据集，以通过Weka学习和实践练习以决策树和神经网络为代表的机器学习算法，旨在将基础知识应用于数据挖掘、分类和特征提取等领域。
+
+## Weka
+Weka is a collection of ML algorithms for data mining tasks, which is developed in **Java**. It contains tools for data preparation, classification, regression, clustering, association rules mining, and visualization. It is open source software issued under the [GNU General Public License](https://www.gnu.org/licenses/gpl.html).
+
+Weka是用于数据挖掘任务的ML算法的集合，通过Java开发，它包含用于数据准备、分类、回归、聚类、关联规则挖掘和可视化的工具。Weka是根据**GNU通用公共许可证**发布的开源软件。
+
+![image](https://user-images.githubusercontent.com/97808991/218695063-c454ba99-cdd6-4384-a744-a226ba848056.png)
+
+For more information, please access: https://waikato.github.io/weka-site/index.html
+
+## Decision Tree
+### Example of weather
+The objective of `weather.arff` is to predict if today we can play tennis. The available training data contain meteorological data of 14 days.
+
+提供的示例数据文件`weather.arff`的目标是预测我们今天是否可以打网球，其可用的训练数据包含了14天的气象数据。
+
+![image](https://user-images.githubusercontent.com/97808991/218704353-6a665346-2e7d-473d-876d-2a019eb176f1.png)
+
+There are 14 instances with 5 attributes. Selecting each attribute, some characteristics of the attribute are displayed: type (nominal/numeric), possible values, maximum and minimum values and a histogram showing the distribution of the samples for this attribute and the classes distribution. For example, the figure shows that the attribute "Outlook" has three possible values (Sunny, Overcast and Rainy) having a distribution of [5,4,5]. In the 5 samples where the attribute `Outlook=sunny`, there are 3 with the class *no* and 2 with class *yes*.
+
+文件共有14个具有5个属性的实例。选择每个属性会显示其一些特征：类型、可能值、最大值、最小值，以及显示该属性的样本分布和类分布的直方图。例如，图中显示属性“Outlook”具有三个可能值（Sunny、Overcast和Rainy），其分布为[5,4,5]。在属性`Outlook=sunny`的5个示例中，有3个为*no*类，2个为*yes*类。
+
+Once the data are loaded, we can learn a model, a decision tree in this case. We can choose how to evaluate the model:
+
+加载数据后，我们可以学习模型，在本例中为决策树算法。我们可以选择如何评估模型：
+
+- Use training set 使用训练集
+- Supplied test set 提供的测试集
+- Cross-validation 交叉验证
+- Percentage split 百分比分割
+
+In this case we are going to use the algorithm C4.5 (J48 is its name in Weka). Then, select `Use the training set` and press the button Start. We can display the created tree using the option `Visualize Tree`.
+
+在本例中使用C4.5算法（J48），然后在树文件夹中选择此算法，选择`Use the training set`，然后开始。最后，我们可以使用`Visualize Tree`选项显示创建的树结构图。
+
+![image](https://user-images.githubusercontent.com/97808991/218707658-aa22f5d6-3cc3-4d36-98f8-8f30fad7b016.png)
+
+### Classfication
+**1. Drug selection**
+
+In this case (`Drug1n.arff`), the objective is to predict the drug to be given to a patient affected by allergic rhinitis according to different parameters/variables. The variables in the clinical records of each patient are:
+
+在该例中（`Drug1n.arff`文件），目标是根据不同的参数/变量预测要给予受过敏性鼻炎影响的患者药物。每个患者的临床记录中的变量如下：
+
+- Age
+- Sex
+- Blood Pressure
+- Cholesterol
+- Na
+- K
+
+There are 5 alternative drugs: DrugA, DrugB, DrugC, DrugX, DrugY. The data of the drug suitable for many patients have been collected in several hospitals. It is intended, for new patients, to determine the best drug to be used.
+
+有5种备选药物，且药物适用于许多患者的数据已在多家医院收集。它旨在为新患者确定要使用的最佳药物。
+
+We can load the data in `drug1n.arff`, analyze the data distribution and create a decision tree with J48. The classification accuracy can be evaluated in the same way as the above case.
+
+加载`drug1n.arff`中的数据，分析数据分布并使用J48创建决策树。可以使用与上述案例同样的方式对其分类精度进行评估。
+
+**2. Parcel Classification**
+
+In this case (`carac2008.arff`), we can test the decision trees over a dataset with 1458 parcels whose classes are known. The parcels are described by 44 features extracted with the software [Fetex](https://cgat.webs.upv.es/BigFiles/fetex2web/demofetex/SoftwareFETEX.pdf).
+
+在本例中（`carac2008.arff`文件），我们可以在包含1458个类别已知的地块的数据集上测试和评估决策树。地块由Fetex软件提取的44个特征描述。
+
+![image](https://user-images.githubusercontent.com/97808991/218713603-4e51e036-d4bf-45b9-b19b-afc611d0ee40.png)
+
+In this case, not all the attributes are used to make a classification such as `Id`, this indicates that there are attributes that are not significant for the resolution of the problem. There are methods such as decision trees, which are not seriously affected by the presence of non-significant attributes, since in the learning process they make a selection of attributes. However, other classifier methods do not perform the attribute selection, so if we perform a filtering of attributes prior to learning we can significantly improve their accuracy, and at the same time simplify the models.
+
+在本例中，并不是所有的属性都用于分类（如`Id`），这表明存在对问题的解决不重要的属性。在如决策树之类的算法中，它们不会受到不重要属性的存在的严重影响，因为在学习过程中它们会选择属性。然而，其他分类器不执行属性选择，因此如果我们在学习之前执行属性过滤，我们可以显着提高它们的准确性，同时简化模型。
+
