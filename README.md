@@ -1,5 +1,5 @@
 # Classification and Feature Selection with Weka
-Several classic datasets are provided for using Weka to study and practice machine learning (ML) algorithms such as Decision Tree and Neural Networks (NN), aiming to apply basic knowledge to areas such as data mining/classification, and feature extraction.
+Several classic datasets are provided for using Weka to study and practice machine learning (ML) algorithms such as Decision Tree and Artificial Neural Networks (ANN), aiming to apply basic knowledge to areas such as data mining/classification, and feature extraction.
 
 该仓库提供了几个经典数据集，以通过Weka学习和实践练习以决策树和神经网络为代表的机器学习算法，旨在将基础知识应用于数据挖掘、分类和特征提取等领域。
 
@@ -57,9 +57,11 @@ There are 5 alternative drugs: DrugA, DrugB, DrugC, DrugX, DrugY. The data of th
 
 有5种备选药物，且药物适用于许多患者的数据已在多家医院收集。它旨在为新患者确定要使用的最佳药物。
 
-We can load the data in `drug1n.arff`, analyze the data distribution and create a decision tree with J48. The classification accuracy can be evaluated in the same way as the above case.
+We can load the data in `Drug1n.arff`, analyze the data distribution and create a decision tree with J48. The classification accuracy can be evaluated in the same way as the above case.
 
-加载`drug1n.arff`中的数据，分析数据分布并使用J48创建决策树。可以使用与上述案例同样的方式对其分类精度进行评估。
+加载`Drug1n.arff`中的数据，分析数据分布并使用J48创建决策树。可以使用与上述案例同样的方式对其分类精度进行评估。
+
+![image](https://user-images.githubusercontent.com/97808991/218719736-4352e051-e87f-46d6-ae53-3b77f5b679f7.png)
 
 **2. Parcel Classification**
 
@@ -73,3 +75,38 @@ In this case, not all the attributes are used to make a classification such as `
 
 在本例中，并不是所有的属性都用于分类（如`Id`），这表明存在对问题的解决不重要的属性。在如决策树之类的算法中，它们不会受到不重要属性的存在的严重影响，因为在学习过程中它们会选择属性。然而，其他分类器不执行属性选择，因此如果我们在学习之前执行属性过滤，我们可以显着提高它们的准确性，同时简化模型。
 
+![image](https://user-images.githubusercontent.com/97808991/218721550-281ba30e-cb76-4f75-a8e5-cefd556fdccb.png)
+
+After deleting the identifier (`Id`), the result obtained by using the J48 algorithm is as follows:
+
+移除`Id`后，使用J48算法得到的结果如下：
+
+![image](https://user-images.githubusercontent.com/97808991/218722311-705f9454-1113-4faa-83dc-e0843b89e374.png)
+
+## Artificial Neural Networks
+### weather
+Load the data contained in the file `weather.arff`, and select the classifier in the tab “Classify”. In the classifier options, select `GUI=True`. This option opens an interface where the architecture of the neural network can be modified.
+
+以上述`weather.arff`文件为例，加载文件中包含的数据，然后在“分类”选项卡中选择分类器。将选项GUI设定为开启后将打开一个界面，可在其中修改神经网络的体系结构。
+
+![image](https://user-images.githubusercontent.com/97808991/218717996-e8ae9f07-871d-447e-868f-12a87e5ea35b.png)
+
+![image](https://user-images.githubusercontent.com/97808991/218718289-484bbda1-cd26-463b-88d1-8fec4e7d7632.png)
+
+### Drug1n
+Create a neural network with the parameters by default and evaluate it with cross validation. We can compare the results with the obtained with the J48 algorithm.
+
+默认情况下使用参数创建神经网络并使用交叉验证对其进行评估。我们可以将结果与使用J48算法获得的结果进行比较。
+
+![image](https://user-images.githubusercontent.com/97808991/218720471-45d35881-038f-4862-ac6b-ec98907af97f.png)
+
+In addition, we can also modify the arquitecture of the network in the graphical interface to add new neurons and connections between them.
+
+此外，我们还可以在图形界面中修改网络的结构，添加新的神经元和它们之间的连接。
+
+### carac2008
+Load the data in the file and remove the attribute corresponding to the identifier, and create a neural network with the default parameters.
+
+加载文件中的数据并移除标识符对应的属性，并使用默认参数创建神经网络。
+
+![image](https://user-images.githubusercontent.com/97808991/218722539-abb6d92f-b2d9-4c99-8b28-a84fcca88a84.png)
