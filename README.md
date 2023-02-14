@@ -115,10 +115,10 @@ Load the data in the file and remove the attribute corresponding to the identifi
 
 ## More info...
 
-Related project: Feature Extraction and Classification based on Machine Learning Algorithms for Land Use Database Updating (Developed by the *Remote Sensing and Geodatabase Updating* subject of UPV)
+Related project: Feature Extraction and Classification based on Machine Learning Algorithms for Land Use Database Updating<br />(Developed by the *Remote Sensing and Geodatabase Updating* subject of UPV)
 
 OA Dataset: https://waikato.github.io/weka-wiki/datasets/
 
-Programmers can easily implement the pipeline using Weka's Java API: [Weka_API](https://github.com/Rc-W024/Classification_Feature_Weka/blob/main/Weka_API.java)
+Programmers can easily implement the pipeline using Weka's Java API: [`Weka_API`](https://github.com/Rc-W024/Classification_Feature_Weka/blob/main/Weka_API.java)
 
 Deep Learning with WEKA: [WekaDeeplearning4j](https://github.com/Waikato/wekaDeeplearning4j/releases/tag/v1.7.2)
