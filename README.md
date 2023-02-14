@@ -6,7 +6,9 @@ Three classic datasets are provided for using Weka to study and practice machine
 ## Weka
 Weka is a collection of ML algorithms for data mining tasks, which is developed in **Java**. It contains tools for data preparation, classification, regression, clustering, association rules mining, and visualization. It is open source software issued under the [GNU General Public License](https://www.gnu.org/licenses/gpl.html).
 
-Weka是用于数据挖掘任务的ML算法的集合，通过Java开发，它包含用于数据准备、分类、回归、聚类、关联规则挖掘和可视化的工具。Weka是根据**GNU通用公共许可证**发布的开源软件。
+In addition, Weka can be used to build machine learning pipelines, train classifiers, and run evaluations without having to write a single line of code.
+
+Weka是用于数据挖掘任务的ML算法的集合，通过Java开发，它包含用于数据准备、分类、回归、聚类、关联规则挖掘和可视化的工具。Weka是根据**GNU通用公共许可证**发布的开源软件。此外，它还可用于构建机器学习、训练分类器和运行评估，无需编写任何代码。
 
 ![image](https://user-images.githubusercontent.com/97808991/218695063-c454ba99-cdd6-4384-a744-a226ba848056.png)
 
@@ -110,3 +112,13 @@ Load the data in the file and remove the attribute corresponding to the identifi
 加载文件中的数据并移除标识符对应的属性，并使用默认参数创建神经网络。
 
 ![image](https://user-images.githubusercontent.com/97808991/218722539-abb6d92f-b2d9-4c99-8b28-a84fcca88a84.png)
+
+## More info...
+
+Related project: Feature Extraction and Classification based on Machine Learning Algorithms for Land Use Database Updating (Developed by the *Remote Sensing and Geodatabase Updating* subject of UPV)
+
+OA Dataset: https://waikato.github.io/weka-wiki/datasets/
+
+Programmers can easily implement the pipeline using Weka's Java API: [Weka_API](https://github.com/Rc-W024/Classification_Feature_Weka/blob/main/Weka_API.java)
+
+Deep Learning with WEKA: [WekaDeeplearning4j](https://github.com/Waikato/wekaDeeplearning4j/releases/tag/v1.7.2)
