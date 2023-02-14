@@ -1,7 +1,7 @@
 # Classification and Feature Selection with Weka
-Several classic datasets are provided for using Weka to study and practice machine learning (ML) algorithms such as Decision Tree and Artificial Neural Network (ANN), aiming to apply basic knowledge to areas such as data mining/classification, and feature extraction.
+Three classic datasets are provided for using Weka to study and practice machine learning (ML) algorithms such as Decision Tree and Artificial Neural Network (ANN), aiming to apply basic knowledge to areas such as data mining/classification, and feature extraction.
 
-该仓库提供了几个经典数据集，以通过Weka学习和实践练习以决策树和神经网络为代表的机器学习算法，旨在将基础知识应用于数据挖掘、分类和特征提取等领域。
+该仓库提供了三个经典数据集，以通过Weka学习和实践练习以决策树和神经网络为代表的机器学习算法，旨在将基础知识应用于数据挖掘、分类和特征提取等领域。
 
 ## Weka
 Weka is a collection of ML algorithms for data mining tasks, which is developed in **Java**. It contains tools for data preparation, classification, regression, clustering, association rules mining, and visualization. It is open source software issued under the [GNU General Public License](https://www.gnu.org/licenses/gpl.html).
@@ -83,7 +83,7 @@ After deleting the identifier (`Id`), the result obtained by using the J48 algor
 
 ![image](https://user-images.githubusercontent.com/97808991/218722311-705f9454-1113-4faa-83dc-e0843b89e374.png)
 
-## Artificial Neural Networks
+## Artificial Neural Network
 ### weather
 Load the data contained in the file `weather.arff`, and select the classifier in the tab “Classify”. In the classifier options, select `GUI=True`. This option opens an interface where the architecture of the neural network can be modified.
 
