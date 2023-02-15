@@ -127,7 +127,7 @@ Load the data in the file and remove the attribute corresponding to the identifi
 
 ## More info...
 
-Related project: Feature Extraction and Classification based on Machine Learning Algorithms for Land Use Database Updating<br />(Developed by the *Remote Sensing and Geodatabase Updating* subject of UPV)
+Related project: Feature Extraction and Classification based on ML Algorithms for Land Use Database Updating<br />(Developed by the *Remote Sensing and Geodatabase Updating* subject of UPV)
 
 OA Dataset: https://waikato.github.io/weka-wiki/datasets/
 
