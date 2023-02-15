@@ -5,7 +5,7 @@ Three classic datasets are provided for using Weka to study and practice machine
 
 The `script_weka` folder contains 4 basic algorithm codes for Weka, which can be used as the basis for learning Weka or as the basis for projects.
 
-`script_weka`文件夹包含了基于Weka的4个基本算法代码，可以作为学习Weka的基础和构建项目的基础，可根据实际需求对代码进行修改。
+文件夹`script_weka`包含了基于Weka的4个基本算法代码，可以作为学习Weka的基础和构建项目的基础，可根据实际需求对代码进行修改。
 
 - Decision Tree (J48) for classification `J48.java` 用于分类的决策树J48算法
 
