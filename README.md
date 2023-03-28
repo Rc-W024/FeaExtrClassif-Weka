@@ -28,9 +28,9 @@ For more information, please access: https://waikato.github.io/weka-site/index.h
 
 ## Decision Tree
 ### Example of weather
-The objective of `weather.arff` is to predict if today we can play tennis. The available training data contain meteorological data of 14 days.
+The objective of [`weather.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/weather.arff) is to predict if today we can play tennis. The available training data contain meteorological data of 14 days.
 
-提供的示例数据文件`weather.arff`的目标是预测我们今天是否可以打网球，其可用的训练数据包含了14天的气象数据。
+提供的示例数据文件[`weather.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/weather.arff)的目标是预测我们今天是否可以打网球，其可用的训练数据包含了14天的气象数据。
 
 ![image](https://user-images.githubusercontent.com/97808991/218704353-6a665346-2e7d-473d-876d-2a019eb176f1.png)
 
@@ -56,9 +56,9 @@ In this case we are going to use the algorithm C4.5 (J48 is its name in Weka). T
 ### Classfication
 **1. Drug selection**
 
-In this case (`Drug1n.arff`), the objective is to predict the drug to be given to a patient affected by allergic rhinitis according to different parameters/variables. The variables in the clinical records of each patient are:
+In this case ([`Drug1n.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/Drug1n.arff)), the objective is to predict the drug to be given to a patient affected by allergic rhinitis according to different parameters/variables. The variables in the clinical records of each patient are:
 
-在该例中（`Drug1n.arff`文件），目标是根据不同的参数/变量预测要给予受过敏性鼻炎影响的患者药物。每个患者的临床记录中的变量如下：
+在该例中（[`Drug1n.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/Drug1n.arff)），目标是根据不同的参数/变量预测要给予受过敏性鼻炎影响的患者药物。每个患者的临床记录中的变量如下：
 
 - Age
 - Sex
@@ -79,9 +79,9 @@ We can load the data in `Drug1n.arff`, analyze the data distribution and create 
 
 **2. Parcel Classification**
 
-In this case (`carac2008.arff`), we can test the decision trees over a dataset with 1458 parcels whose classes are known. The parcels are described by 44 features extracted with the software [Fetex](https://cgat.webs.upv.es/BigFiles/fetex2web/demofetex/SoftwareFETEX.pdf).
+In this case ([`carac2008.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/carac2008.arff)), we can test the decision trees over a dataset with 1458 parcels whose classes are known. The parcels are described by 44 features extracted with the software [Fetex](https://cgat.webs.upv.es/BigFiles/fetex2web/demofetex/SoftwareFETEX.pdf).
 
-在本例中（`carac2008.arff`文件），我们可以在包含1458个类别已知的地块的数据集上测试和评估决策树。地块由Fetex软件提取的44个特征描述。
+在本例中（[`carac2008.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/carac2008.arff)），我们可以在包含1458个类别已知的地块的数据集上测试和评估决策树。地块由Fetex软件提取的44个特征描述。
 
 ![image](https://user-images.githubusercontent.com/97808991/218713603-4e51e036-d4bf-45b9-b19b-afc611d0ee40.png)
 
@@ -99,9 +99,9 @@ After deleting the identifier (`Id`), the result obtained by using the J48 algor
 
 ## Artificial Neural Network
 ### weather
-Load the data contained in the file `weather.arff`, and select the classifier in the tab “Classify”. In the classifier options, select `GUI=True`. This option opens an interface where the architecture of the neural network can be modified.
+Load the data contained in the file [`weather.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/weather.arff), and select the classifier in the tab “Classify”. In the classifier options, select `GUI=True`. This option opens an interface where the architecture of the neural network can be modified.
 
-以上述`weather.arff`文件为例，加载文件中包含的数据，然后在“分类”选项卡中选择分类器。将选项GUI设定为开启后将打开一个界面，可在其中修改神经网络的体系结构。
+以上述[`weather.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/weather.arff)文件为例，加载文件中包含的数据，然后在“分类”选项卡中选择分类器。将选项GUI设定为开启后将打开一个界面，可在其中修改神经网络的体系结构。
 
 ![image](https://user-images.githubusercontent.com/97808991/218717996-e8ae9f07-871d-447e-868f-12a87e5ea35b.png)
 
