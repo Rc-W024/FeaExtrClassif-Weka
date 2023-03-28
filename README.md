@@ -7,13 +7,13 @@ The `script_weka` folder contains 4 basic algorithm codes for Weka, which can be
 
 文件夹`script_weka`包含了基于Weka的4个基本算法代码，可以作为学习Weka的基础和构建项目的基础，可根据实际需求对代码进行修改。
 
-- Decision Tree (J48) for classification `J48.java` 用于分类的决策树J48算法
+- Decision Tree (J48) for classification [`J48.java`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/script_weka/J48.java) 用于分类的决策树J48算法
 
-- ANN for feature extraction `ANN.java` 用于特征提取的神经网络算法
+- ANN for feature extraction [`ANN.java`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/script_weka/ANN.java) 用于特征提取的神经网络算法
 
-- K-means for clustering `K-Means.java` 用于聚类的K平均算法
+- K-means for clustering [`K-Means.java`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/script_weka/K-Mean.java) 用于聚类的K平均算法
 
-- Linear regression for regression analysis `Linear.java` 用于回归分析的线性回归算法
+- Linear regression for regression analysis [`Linear.java`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/script_weka/Linear.java) 用于回归分析的线性回归算法
 
 ## Weka
 Weka is a collection of ML algorithms for data mining tasks, which is developed in **Java**. It contains tools for data preparation, classification, regression, clustering, association rules mining, and visualization. It is open source software issued under the [GNU General Public License](https://www.gnu.org/licenses/gpl.html).
