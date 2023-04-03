@@ -1,5 +1,5 @@
 # Classification and Feature Selection with Weka
-Three classic datasets are provided for using Weka to study and practice machine learning (ML) algorithms such as Decision Tree and Artificial Neural Network (ANN), aiming to apply basic knowledge to areas such as data mining/classification, and feature extraction.
+Three classic datasets are provided for using Weka to study and practice machine learning (ML) algorithms such as Decision Tree and Artificial Neural Network (ANN), aiming to apply basic knowledge to areas such as data mining and classification, and feature extraction.
 
 该仓库提供了三个经典数据集，以通过Weka学习和实践练习以决策树和神经网络为代表的机器学习算法，旨在将基础知识应用于数据挖掘、分类和特征提取等领域。
 
