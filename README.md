@@ -30,7 +30,7 @@ For more information, please access: https://waikato.github.io/weka-site/index.h
 ### Example of weather
 The objective of [`weather.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/weather.arff) is to predict if today we can play tennis. The available training data contain meteorological data of 14 days.
 
-提供的示例数据文件[`weather.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/weather.arff)的目标是预测我们今天是否可以打网球，其可用的训练数据包含了14天的气象数据。
+所提供示例数据[`weather.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/weather.arff)的目标是预测我们今天是否可以打网球，其可用的训练数据包含了14天的气象数据。
 
 ![image](https://user-images.githubusercontent.com/97808991/218704353-6a665346-2e7d-473d-876d-2a019eb176f1.png)
 
