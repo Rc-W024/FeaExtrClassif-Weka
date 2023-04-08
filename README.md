@@ -116,7 +116,7 @@ Create a neural network with the parameters by default and evaluate it with cros
 
 In addition, we can also modify the arquitecture of the network in the graphical interface to add new neurons and connections between them.
 
-此外，我们还可以在图形界面中修改网络的结构，添加新的神经元和它们之间的连接。
+此外，我们还可以在图形界面中修改网络结构，添加新的神经元及其之间的连接。
 
 ### carac2008
 Load the data in the file and remove the attribute corresponding to the identifier, and create a neural network with the default parameters.
