@@ -110,7 +110,7 @@ Load the data contained in the file [`weather.arff`](https://github.com/Rc-W024/
 ### Drug1n
 Create a neural network with the parameters by default and evaluate it with cross validation. We can compare the results with the obtained with the J48 algorithm.
 
-默认情况下使用参数创建神经网络并使用交叉验证对其进行评估。我们可以将结果与使用J48算法获得的结果进行比较。
+使用默认参数创建神经网络并用交叉验证对其进行评估。我们可以将结果与使用J48算法获得的结果进行比较。
 
 ![image](https://user-images.githubusercontent.com/97808991/218720471-45d35881-038f-4862-ac6b-ec98907af97f.png)
 
