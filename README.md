@@ -20,7 +20,7 @@ Weka is a collection of ML algorithms for data mining tasks, which is developed 
 
 In addition, Weka can be used to build ML pipelines, train classifiers, and run evaluations without having to write a single line of code.
 
-Weka是用于数据挖掘任务的机器学习算法的集合，通过Java开发，它包含了用于数据准备、分类、回归、聚类、关联规则挖掘和可视化的工具。Weka是根据**GNU通用公共许可证**发布的开源软件。此外，它还可用于构建机器学习、训练分类器和运行评估，而无需编写任何代码。
+Weka是用于数据挖掘任务的机器学习算法的集合，通过Java开发，它包含了用于数据准备、分类、回归、聚类、关联规则挖掘和可视化的工具。Weka是根据**GNU通用公共许可证**发布的开源软件。此外，它还可用于构建机器学习、训练分类器和运行评估，且无需编写任何代码。
 
 ![image](https://user-images.githubusercontent.com/97808991/218695063-c454ba99-cdd6-4384-a744-a226ba848056.png)
 
