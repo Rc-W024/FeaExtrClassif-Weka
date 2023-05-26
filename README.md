@@ -121,7 +121,7 @@ In addition, we can also modify the arquitecture of the network in the graphical
 ### carac2008
 Load the data in the file and remove the attribute corresponding to the identifier, and create a neural network with the default parameters.
 
-加载文件中的数据并移除标识符对应的属性，并使用默认参数创建神经网络。
+加载文件中的数据并移除标识符对应的属性，使用默认参数创建神经网络。
 
 ![image](https://user-images.githubusercontent.com/97808991/218722539-abb6d92f-b2d9-4c99-8b28-a84fcca88a84.png)
 
