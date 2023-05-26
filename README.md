@@ -49,7 +49,7 @@ Once the data are loaded, we can learn a model, a decision tree in this case. We
 
 In this case we are going to use the algorithm C4.5 (J48 is its name in Weka). Then, select *Use the training set* and press the button *Start*. We can display the created tree using the option *Visualize Tree*.
 
-在本例中使用C4.5算法（J48），然后在树文件夹中选择此算法，选择*Use the training set*，然后点击*开始*按键。最后，我们可以使用*Visualize Tree*选项显示创建的树结构图。
+在本例中使用C4.5（J48）算法，随后选择*Use the training set*，点击*开始*按键。最后，我们可以使用*Visualize Tree*选项显示创建的树结构图。
 
 ![image](https://user-images.githubusercontent.com/97808991/218707658-aa22f5d6-3cc3-4d36-98f8-8f30fad7b016.png)
 
