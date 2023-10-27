@@ -1,11 +1,11 @@
 # Classification and Feature Selection with WEKA
-Three classic datasets are provided for using **Weka** to study and practice machine learning (ML) algorithms such as Decision Tree and Artificial Neural Network (ANN), aiming to apply basic knowledge to areas such as data mining and classification, and feature extraction.
+Three classic datasets are provided for using **WEKA** to study and practice machine learning (ML) algorithms such as Decision Tree and Artificial Neural Network (ANN), aiming to apply basic knowledge to areas such as data mining and classification, and feature extraction.
 
-该库提供了三个经典数据集，使用**Weka**学习和实践练习以决策树和神经网络为代表的机器学习算法，旨在将基础知识应用于数据挖掘、分类和特征提取等领域。
+该库提供了三个经典数据集，使用**WEKA**学习和实践练习以决策树和神经网络为代表的机器学习算法，旨在将基础知识应用于数据挖掘、分类和特征提取等领域。
 
 The `script_weka` folder contains 4 basic algorithm codes for Weka, which can be used as the basis for learning Weka or as the basis for projects.
 
-`script_weka`文件夹包含了基于Weka的4个基本算法代码（Java），可以作为学习Weka的基础和构建项目的基础，可根据实际需求对代码进行修改。
+`script_weka`文件夹包含了基于Weka的4个基本算法代码（Java语言），可以作为学习Weka的基础和构建项目的基础，可根据实际需求对代码进行修改。
 
 - Decision Tree (J48) for classification [`J48`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/script_weka/J48.java) 用于分类的决策树J48算法
 
