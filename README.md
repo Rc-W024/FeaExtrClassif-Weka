@@ -15,7 +15,7 @@ The `script_weka` folder contains four basic algorithm codes (*Java*) for Weka, 
 
 - Linear regression for regression analysis [`Linear`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/script_weka/Linear.java) 用于回归分析的线性回归算法
 
-## Weka
+## WEKA
 Weka is a collection of ML algorithms for data mining tasks, which is developed in **Java**. It contains tools for data preparation, classification, regression, clustering, association rules mining, and visualization. It is open source software issued under the [GNU General Public License](https://www.gnu.org/licenses/gpl.html).
 
 In addition, Weka can be used to build ML pipelines, train classifiers, and run evaluations without having to write a single line of code.
