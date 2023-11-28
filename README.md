@@ -81,7 +81,7 @@ We can load the data in `Drug1n.arff`, analyze the data distribution and create 
 
 In this case ([`carac2008.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/carac2008.arff)), we can test the decision trees over a dataset with 1458 parcels whose classes are known. The parcels are described by 44 features extracted with the software [Fetex](https://cgat.webs.upv.es/BigFiles/fetex2web/demofetex/SoftwareFETEX.pdf).
 
-在本例中（[`carac2008.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/carac2008.arff)），我们可以在包含1458个类别已知的地块的数据集上测试和评估决策树。地块由Fetex软件提取的44个特征描述。
+在本例中（[`carac2008.arff`](https://github.com/Rc-W024/FeaExtrClassif-Weka/blob/main/carac2008.arff)），我们可以在包含1458个类别已知的地块的数据集上测试和评估决策树。通过Fetex提取44个特征来描述地块。
 
 ![image](https://user-images.githubusercontent.com/97808991/218713603-4e51e036-d4bf-45b9-b19b-afc611d0ee40.png)
 
