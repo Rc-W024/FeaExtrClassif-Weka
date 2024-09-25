@@ -1,6 +1,8 @@
 # Classification and Feature Selection with WEKA
 English | [中文](README_CN.md)
 
+![](https://skillicons.dev/icons?i=java)
+
 Three classic datasets are provided for using **WEKA** to study and practice machine learning (ML) algorithms such as Decision Tree and Artificial Neural Network (ANN), aiming to apply basic knowledge to areas such as data mining and classification, and feature extraction.
 
 The `script_weka` folder contains four basic algorithm codes (*Java*) for Weka, which can be used as the basis for learning Weka or as the basis for projects.
